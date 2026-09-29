@@ -129,9 +129,9 @@ linha, você pode seguir estas etapas:
     teamviewer
     ```
 
-### 1.3 Configurar o Acesso Fácil (Easy Access) e o acesso não supervisionado
+### 1.3 Configurar o `Acesso Fácil (Easy Access)` e o acesso não supervisionado
 
-O `TeamViewer Classic` suporta **Acesso Fácil (Easy Access)**. Para utilizar esse recurso,
+O `TeamViewer Classic` suporta **`Acesso Fácil (Easy Access)`**. Para utilizar esse recurso,
 vincule o computador remoto à sua conta e habilite o acesso não supervisionado.
 
 1. **Confirme a versão no computador que será controlado:** Abra o terminal e execute:
@@ -147,23 +147,29 @@ vincule o computador remoto à sua conta e habilite o acesso não supervisionado
     sudo teamviewer setup
     ```
 
-3. **Abra o TeamViewer:**
+3. **Abra o `TeamViewer`:**
 
     ```bash
     teamviewer
     ```
 
-4. **Vincule o computador e conceda acesso fácil:** No `TeamViewer`, entre com sua conta
-   **Eden Denis** e procure por **Extras → Opções → Segurança** ou, dependendo da versão,
-   **Extras → Opções → Geral → Atribuição de conta**. Procure opções como **Atribuir à conta**,
-   **Conceder acesso fácil** ou **Grant Easy Access**. Conclua a atribuição à conta e
+<p align="center">
+  <img src="docs/figures/seguranca.png" alt="TeamViewer">
+</p>
+
+4. **Vincule o computador e conceda acesso fácil:**
+
+    4.1 No `TeamViewer`, entre com sua conta
+   
+   4.2 Procure por **`Extras -> Opções -> Segurança`** ou, dependendo da versão,
+   **`Conceder acesso fácil`** ou **`Grant Easy Access`**. Conclua a atribuição à conta e
    ative o acesso fácil.
 
 5. **Conecte-se pelo outro computador:** Entre com a mesma conta e abra
    **Computadores e contatos**. O computador configurado deverá aparecer na lista.
-   Com ele ligado, conectado à internet e com o `TeamViewer` em execução, selecione-o
-   e clique em **Controle remoto**. Assim, você poderá acessar o computador sem informar
-   manualmente o ID `886 771 968` e a senha temporária exibidos no computador remoto.
+   Com ele ligado, conectado à _internet_ e com o `TeamViewer` em execução, selecione-o
+   e clique em **`Controle remoto`**. Assim, você poderá acessar o computador sem informar
+   manualmente o ID  e a senha temporária exibidos no computador remoto.
 
 
 ## 2. Desinstalar o `TeamViewer` do `Linux Ubuntu`
