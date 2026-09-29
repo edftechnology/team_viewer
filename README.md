@@ -72,13 +72,13 @@ Vou mostrar como fazer isso para o bash, mas o processo é similar para outros s
 
 Para configurar/instalar/usar o `TeamViewer` no `Linux Ubuntu` pelo `Terminal Emulator`, siga estas etapas:
 
-1. **Baixe o pacote DEB do `TeamViewer`:** Primeiro, você precisa baixar o pacote de instalação do TeamViewer. O TeamViewer oferece um pacote DEB que é compatível com sistemas baseados em Debian, como o Ubuntu. Você pode baixar o pacote usando o comando `wget`. Abra o `Terminal Emulator` e digite:
+1. **Baixe o pacote `DEB` do `TeamViewer`:** Primeiro, você precisa baixar o pacote de instalação do `TeamViewer`. O `TeamViewer` oferece um pacote `DEB` que é compatível com sistemas baseados em `Debian`, como o `Ubuntu`. Você pode baixar o pacote usando o comando `wget`. Abra o `Terminal Emulator` e digite:
 
     ```bash
     wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
     ```
 
-2. **Instale o pacote DEB:** Após o _download_ do pacote `.deb`, você pode instalá-lo usando o comando `dpkg`. Se ocorrerem problemas de dependência, você pode resolvê-los com o apt. Execute: 
+2. **Instale o pacote `DEB`:** Após o _download_ do pacote `.deb`, você pode instalá-lo usando o comando `dpkg`. Se ocorrerem problemas de dependência, você pode resolvê-los com o apt. Execute: 
 
     ```bash
     sudo dpkg -i teamviewer_amd64.deb
@@ -87,7 +87,8 @@ Para configurar/instalar/usar o `TeamViewer` no `Linux Ubuntu` pelo `Terminal Em
     
     O comando `dpkg -i` instala o pacote, e o `apt install -f` corrige quaisquer problemas de dependência.
 
-3. **Abra o `TeamViewer`:** Depois que a instalação for concluída, você pode iniciar o `TeamViewer` através do terminal ou encontrar o aplicativo no menu de programas.
+3. **Abra o `TeamViewer`:** Depois que a instalação for concluída, você pode iniciar o `TeamViewer`
+através do `Terminal Emulator` ou encontrar o aplicativo no menu de programas.
 
     Para iniciar pelo `Terminal Emulator`, digite:
     
@@ -95,12 +96,15 @@ Para configurar/instalar/usar o `TeamViewer` no `Linux Ubuntu` pelo `Terminal Em
     teamviewer
     ```
 
-Assegure-se de que está baixando o pacote `TeamViewer` do site oficial para evitar questões de segurança. O processo de instalação no Ubuntu é bastante direto, mas é sempre importante garantir que o sistema esteja atualizado antes de instalar novos _softwares_.
+Assegure-se de que está baixando o pacote `TeamViewer` do site oficial para evitar questões de 
+segurança. O processo de instalação no `Linux Ubuntu` é bastante direto, mas é sempre importante
+garantir que o sistema esteja atualizado antes de instalar novos _softwares_.
 
 
 ### 1.2 Código completo para configurar/instalar/usar
 
-Para configurar/instalar/usar o `TeamViewer` no `Linux Ubuntu` sem precisar digitar linha por linha, você pode seguir estas etapas:
+Para configurar/instalar/usar o `TeamViewer` no `Linux Ubuntu` sem precisar digitar linha por
+linha, você pode seguir estas etapas:
 
 1. Abrir o `Terminal Emulator`. Você pode fazer isso pressionando:
 
@@ -159,11 +163,19 @@ Para desinstalar o `TeamViewer` do `Linux Ubuntu` pelo `Terminal Emulator`, siga
     sudo apt update
     ```
 
-Seguindo esses passos, você terá desinstalado o TeamViewer do seu sistema Ubuntu.
+Seguindo esses passos, você terá desinstalado o TeamViewer do seu sistema `Linux Ubuntu`.
 
 ## Referências
 
-[1] OPENAI. **Instalar o `teamviewer` no `linux ubuntu` pelo `terminal emulator`.*** Disponível em: <https://chat.openai.com/c/9a96cf1c-939c-494a-a9ed-918fe64f2380> (texto adaptado). ChatGPT. Acessado em: 13/12/2023 07:56.
+[1] OPENAI.
+**Instalar o `teamviewer` no `linux ubuntu` pelo `terminal emulator`.***
+Disponível em: <https://chat.openai.com/c/9a96cf1c-939c-494a-a9ed-918fe64f2380> (texto adaptado).
+ChatGPT.
+Acessado em: 13/12/2023 07:56.
 
-[2] OPENAI. **Vs code: editor popular.** Disponível em: <https://chat.openai.com/c/b640a25d-f8e3-4922-8a3b-ed74a2657e42> (texto adaptado). ChatGPT. Acessado em: 13/12/2023 07:56.
+[2] OPENAI.
+**Vs code: editor popular.**
+Disponível em: <https://chat.openai.com/c/b640a25d-f8e3-4922-8a3b-ed74a2657e42> (texto adaptado).
+ChatGPT.
+cdAcessado em: 13/12/2023 07:56.
 
